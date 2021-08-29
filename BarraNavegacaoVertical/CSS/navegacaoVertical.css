@@ -1,0 +1,40 @@
+ul#VerticalBarNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#FirstElement {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#LastElement {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/*For every "a" son of "li" son of "ul" that has a Id=VerticalBarNavigation*/
+ul#VerticalBarNavigation>li>a { 
+    padding-left: 0.75rem;
+    width: 10rem;
+    height: 2rem;
+    display: block;
+    text-decoration: none;
+    line-height: 2em;
+    background: rgba(60, 91, 175, 0.95);
+    color: white;
+}
+
+ul#VerticalBarNavigation>li>a:hover {
+    background: rgb(45, 60, 95);
+    color: white;
+}
+
+#Home #VerticalBarNavigation .Home a,
+#About #VerticalBarNavigation .About a,
+#Services #VerticalBarNavigation .Services a,
+#News #VerticalBarNavigation .News a,
+#Contact #VerticalBarNavigation .Contact a {
+    background: rgb(45, 60, 95);
+    color: white;
+}

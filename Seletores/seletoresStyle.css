@@ -1,0 +1,46 @@
+/*Seletor Universal*/
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+/*Seletor de Texto*/
+h1 {
+    color: red;
+}
+
+/*Seletor de Classe*/
+.ClassName {
+    font-size: 20px;
+}
+
+h1.ClassName {
+    font-size: 50px;
+}
+
+/*Seletor de ID*/
+#IdName {
+    font-size: 5px;
+}
+
+/*Seletor de Filho (Aplica o CSS apenas para os elementos "a", filhos diretos de um "li")*/
+li>a {
+    text-decoration: line-through;
+}
+
+/*Seletor de Descendente (Aplica o CSS apenas para os elementos "a", descendentes de um "p"*/
+p a {
+    text-decoration: none;
+}
+
+/*Seletor de Irmão Adjacente (Aplica o CSS apenas para o primeiro elemento "p" diretamente próximo e depois do elemento "h2", mas não os elementos "p" seguintes)*/
+h2+p {
+    font-weight: 600;
+}
+
+/*Seletor de Irmão Geral (Aplica o CSS para todos os elementos "p", próximos e depois do elemento "h3)*/
+h3~p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
